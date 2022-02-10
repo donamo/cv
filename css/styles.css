@@ -118,6 +118,9 @@
     background-color: white !important;
     -webkit-print-color-adjust: exact;
   }
+  .generate-pdf-button{
+    display: none !important;
+  }
 }
 
 .maincontainer {
