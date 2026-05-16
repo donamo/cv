@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Szabó Ambrus CV - English HR-compatible version." />
+  <meta name="author" content="Szabó Ambrus" />
+  <title>Szabó Ambrus | HR CV</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <div class="site-topbar" aria-label="Page information">
+      <div class="window-controls" aria-hidden="true"><span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></div>
+      <div class="filename">/cv/SzaboAmbrus/Profile.hr.en.html</div>
+      <button class="print-link" onclick="window.print()">print()</button>
+    </div>
+
+    <nav class="variant-switch" aria-label="CV variants">
+      <a href="index.html">Szakmai profil - HU</a>
+      <a href="programmer-hu.html">Technikai CV - HU</a>
+      <a href="programmer-en.html">Technical CV - EN</a>
+      <a href="hr-en.html">Professional Profile - EN</a>
+    </nav>
+
+    <article class="hr-shell" aria-label="Szabó Ambrus HR-compatible CV">
+      <header class="hr-header">
+        <div class="avatar" aria-label="Szabó Ambrus initials">SA</div>
+        <div>
+          <p class="eyebrow">Hands-on Technical Lead</p>
+          <h1 class="hr-title">Szabó Ambrus</h1>
+          <p class="hr-subtitle">Technical lead for internal banking applications, cloud-native systems and developer workflows. I connect hands-on engineering, architecture, delivery processes and team mentoring into one practical leadership role.</p>
+          <div class="hr-contact">
+            <a href="mailto:szambusz@gmail.com">szambusz@gmail.com</a>
+            <span>Budapest, Hungary</span>
+            <a href="https://github.com/donamo" target="_blank" rel="noreferrer">github.com/donamo</a>
+            <a href="https://hu.linkedin.com/in/szaboambrus" target="_blank" rel="noreferrer">linkedin.com/in/szaboambrus</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="hr-grid">
+        <main>
+          <section class="hr-card">
+            <h2>Professional Summary</h2>
+            <p>I am a hands-on Technical Lead with strong experience in enterprise banking environments. My work covers internal business applications, customer and payment related processes, integrations between systems, delivery automation and developer productivity. I do not focus only on writing code: I also design engineering workflows, release processes, quality gates and platform-oriented solutions.</p>
+          </section>
+
+          <section class="hr-card">
+            <h2>Core Focus Areas</h2>
+            <ul>
+              <li>Technical leadership, architecture and engineering mentoring.</li>
+              <li>Internal banking applications: C360, deduplication, payments and related systems.</li>
+              <li>Cloud-native and event-driven systems based on microservices.</li>
+              <li>CI/CD automation, release governance, quality gates and developer tooling.</li>
+              <li>AI-assisted development workflows and internal tools that improve developer productivity.</li>
+            </ul>
+          </section>
+
+          <section class="hr-card">
+            <h2>Experience</h2>
+            <div class="job">
+              <h3>MBH Bank - Squad Technical Lead</h3>
+              <p class="job-meta">January 2024 - Present</p>
+              <p>Technical leadership for internal business applications. Focus areas include architecture, integration decisions, delivery support, mentoring, CI/CD and release automation, quality gates and developer tooling.</p>
+            </div>
+            <div class="job">
+              <h3>MBH Bank - Senior Software Developer</h3>
+              <p class="job-meta">December 2020 - January 2024</p>
+              <p>Online banking application development in a Scrum environment. Backend, frontend and integration work with Java, Spring, ExtJS, Docker and Kubernetes.</p>
+            </div>
+            <div class="job">
+              <h3>W.UP Ltd. - Software Developer</h3>
+              <p class="job-meta">July 2015 - November 2020</p>
+              <p>Budapest Bank online banking application development, agile teamwork, continuous delivery and support for enterprise banking processes.</p>
+            </div>
+            <div class="job">
+              <h3>DITinform - Software Developer</h3>
+              <p class="job-meta">July 2013 - July 2015</p>
+              <p>Online banking application development with web and mobile responsibilities.</p>
+            </div>
+            <div class="job">
+              <h3>Royal Computer - Software Developer</h3>
+              <p class="job-meta">June 2008 - June 2013</p>
+              <p>ERP and business administration system development in web and Linux-based environments.</p>
+            </div>
+          </section>
+        </main>
+
+        <aside>
+          <section class="hr-card">
+            <h2>Core Competencies</h2>
+            <ul class="tag-list">
+              <li>Technical leadership</li>
+              <li>Solution architecture</li>
+              <li>Platform engineering</li>
+              <li>Developer productivity</li>
+              <li>Release automation</li>
+              <li>Quality engineering</li>
+              <li>Cloud-native systems</li>
+              <li>Banking domain</li>
+            </ul>
+          </section>
+
+          <section class="hr-card">
+            <h2>Technologies</h2>
+            <ul class="tag-list">
+              <li>TypeScript</li>
+              <li>React</li>
+              <li>Java</li>
+              <li>Spring</li>
+              <li>AWS</li>
+              <li>Kafka</li>
+              <li>Docker</li>
+              <li>Kubernetes</li>
+              <li>GitLab CI</li>
+              <li>GraphQL</li>
+              <li>PostgreSQL</li>
+              <li>Linux</li>
+            </ul>
+          </section>
+
+          <section class="hr-card">
+            <h2>Education</h2>
+            <p>Eötvös Loránd University — Bachelor of Science (BSc), all coursework completed.</p>
+          </section>
+
+          <section class="hr-card">
+            <h2>Professional Interests</h2>
+            <p>Home lab, self-hosted infrastructure, distributed systems, AI-assisted development and developer tooling.</p>
+          </section>
+        </aside>
+      </div>
+    </article>
+  </div>
+  <script>
+    (function(){
+      var p = location.pathname.split('/').pop() || 'index.html';
+      document.querySelectorAll('.variant-switch a').forEach(function(a){
+        if(a.getAttribute('href') === p) a.classList.add('active');
+      });
+    })();
+  </script>
+</body>
+</html>
